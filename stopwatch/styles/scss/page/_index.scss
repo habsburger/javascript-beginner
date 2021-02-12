@@ -1,0 +1,16 @@
+body {
+  background: $background;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 30px auto;
+  color: $white;
+  text-align: center;
+}
+
+#seconds, #tens{
+  font-size:2em;
+}

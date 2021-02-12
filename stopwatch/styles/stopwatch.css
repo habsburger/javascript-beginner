@@ -1,0 +1,40 @@
+h1, h2, h3 {
+  font-family: "Roboto Light", serif;
+  font-weight: 100;
+  font-size: 2.6em; }
+
+.btn {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #4baf2b;
+  color: #fff;
+  width: 180px;
+  cursor: pointer;
+  border: solid 1px #fff;
+  padding: 18px 10px;
+  margin: 10px;
+  outline: none;
+  font-size: 1.2em; }
+  .btn:hover {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+    background: #fff;
+    border: solid 1px #fff;
+    color: #ffa600; }
+
+body {
+  background: #ffa600;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%; }
+
+.wrapper {
+  width: 100%;
+  margin: 30px auto;
+  color: #fff;
+  text-align: center; }
+
+#seconds, #tens {
+  font-size: 2em; }

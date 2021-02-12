@@ -1,0 +1,28 @@
+.btn {
+  @include corners(5px);
+  background: $green;
+  color: $white;
+  width: 180px;
+  cursor: pointer;
+  border: solid 1px $white;
+  padding: 18px 10px;
+  margin: 10px;
+  outline: none;
+  font-size: 1.2em;
+
+  &:hover {
+    @include transition;
+    background: $white;
+    border: solid 1px $white;
+    color: $background;
+  }
+
+  &--start {
+  }
+
+  &--stop {
+  }
+
+  &--reset {
+  }
+}
