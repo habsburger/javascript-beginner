@@ -1,0 +1,17 @@
+{
+  "name": "javascript-beginner",
+  "version": "1.0.0",
+  "description": "JavaScript Projects for Beginners",
+  "main": "index.js",
+  "scripts": {
+    "compile:stopwatch": "node-sass stopwatch/styles/scss/main.scss stopwatch/styles/stopwatch.css -w"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "song",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
